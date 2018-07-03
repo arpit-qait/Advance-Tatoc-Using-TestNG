@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testCases" duration-ms="12248" started-at="2018-07-03T06:26:41Z" finished-at="2018-07-03T06:26:53Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="12248" started-at="2018-07-03T06:26:41Z" finished-at="2018-07-03T06:26:53Z">
+      <class name="testCases">
+        <test-method status="PASS" signature="SetupDriver()[pri:0, instance:testCases@1969fbe]" name="SetupDriver" is-config="true" duration-ms="4804" started-at="2018-07-03T11:56:41Z" finished-at="2018-07-03T11:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupDriver -->
+        <test-method status="PASS" signature="CourseSelect()[pri:0, instance:testCases@1969fbe]" name="CourseSelect" duration-ms="204" started-at="2018-07-03T11:56:45Z" finished-at="2018-07-03T11:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CourseSelect -->
+        <test-method status="PASS" signature="GoToCorrectMenu()[pri:0, instance:testCases@1969fbe]" name="GoToCorrectMenu" duration-ms="167" started-at="2018-07-03T11:56:46Z" depends-on-methods="testCases.CourseSelect" finished-at="2018-07-03T11:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToCorrectMenu -->
+        <test-method status="PASS" signature="DetailsInDataBase()[pri:0, instance:testCases@1969fbe]" name="DetailsInDataBase" duration-ms="7051" started-at="2018-07-03T11:56:46Z" depends-on-methods="testCases.GoToCorrectMenu" finished-at="2018-07-03T11:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DetailsInDataBase -->
+      </class> <!-- testCases -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testCases -->
+</testng-results>
